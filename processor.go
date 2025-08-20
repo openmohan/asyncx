@@ -63,6 +63,4 @@ func (p *Processor) Start(mux *asynq.ServeMux) error {
 	return p.server.Run(h)
 }
 
-func (p *Processor) Shutdown() {
-	p.server.Shutdown()
-}
+func (p *Processor) Shutdown() { p.server.Shutdown() }
