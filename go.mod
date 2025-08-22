@@ -1,6 +1,6 @@
 module github.com/mohans/asyncx
 
-go 1.23
+go 1.23.1
 
 require (
 	github.com/alicebob/miniredis/v2 v2.34.0
